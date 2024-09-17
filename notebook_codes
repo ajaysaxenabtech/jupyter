@@ -3,3 +3,25 @@ from IPython.display import display,HTML
 display(HTML("<style>.container{width:100% !important; }</style>"))
 
 #suppress warnigs
+
+
+
+#Terminal Commands
+#Displays system information.
+uname -a
+
+#Displays CPU architecture information.
+lscpu
+
+#Lists information about block devices (e.g., disks and partitions).
+lsblk
+
+#Displays memory usage.
+free -h
+
+#Displays an interactive view of CPU and memory usage.
+top
+
+#Reports file system disk space usage.
+df -h
+
